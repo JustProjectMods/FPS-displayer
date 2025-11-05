@@ -1,0 +1,47 @@
+{
+  "fpsdisplayer.menu.title": "Настройки JustProject",
+  "fpsdisplayer.menu.key_binds": "Настройки биндов",
+  "fpsdisplayer.menu.visual_settings": "Визуальные настройки",
+  "fpsdisplayer.menu.language": "Язык",
+  "fpsdisplayer.menu.back": "Назад",
+  
+  "fpsdisplayer.binds.title": "Настройки биндов клавиш",
+  "fpsdisplayer.binds.add": "+ Добавить бинд",
+  "fpsdisplayer.binds.key": "Клавиша",
+  "fpsdisplayer.binds.command": "Команда",
+  "fpsdisplayer.binds.action": "Действие",
+  "fpsdisplayer.binds.delete": "Удалить",
+  "fpsdisplayer.binds.count": "Биндов: %s",
+  "fpsdisplayer.binds.listening": "Нажмите любую клавишу... (ESC для отмены)",
+  "fpsdisplayer.binds.instructions": "Как использовать бинды:",
+  "fpsdisplayer.binds.instruction1": "Нажмите кнопку клавиши и нажмите любую клавишу",
+  "fpsdisplayer.binds.instruction2": "Введите команду в поле (без /)",
+  "fpsdisplayer.binds.instruction3": "Нажмите ESC чтобы закрыть меню",
+  
+  "fpsdisplayer.visual.title": "Визуальные настройки",
+  "fpsdisplayer.visual.fps": "Показ FPS",
+  "fpsdisplayer.visual.coordinates": "Координаты",
+  "fpsdisplayer.visual.cps": "Показ CPS",
+  "fpsdisplayer.visual.armor": "Показ брони",
+  "fpsdisplayer.visual.entity_info": "Инфо о мобах",
+  "fpsdisplayer.visual.armor_swap": "Свап брони",
+  "fpsdisplayer.visual.swap_sound": "Звук свапа",
+  "fpsdisplayer.visual.positions": "Редактор позиций (скоро)",
+  "fpsdisplayer.visual.reset": "Сбросить позиции",
+  "fpsdisplayer.visual.config_info": "Расширенные настройки в: config/fpsdisplayer.toml",
+  
+  "fpsdisplayer.language.title": "Выбор языка",
+  "fpsdisplayer.language.english": "Английский",
+  "fpsdisplayer.language.russian": "Русский",
+  
+  "fpsdisplayer.status.on": "ВКЛ",
+  "fpsdisplayer.status.off": "ВЫКЛ",
+  
+  "fpsdisplayer.armor.swap_hint": "ПКМ чтобы сменить %s",
+  "fpsdisplayer.armor.swap_success": "✓ Сменил %s",
+  "fpsdisplayer.armor.helmet": "шлем",
+  "fpsdisplayer.armor.chestplate": "нагрудник",
+  "fpsdisplayer.armor.leggings": "поножи",
+  "fpsdisplayer.armor.boots": "ботинки",
+  "fpsdisplayer.armor.elytra": "элитры"
+}

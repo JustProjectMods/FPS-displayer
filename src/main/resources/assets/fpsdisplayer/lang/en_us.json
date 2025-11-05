@@ -1,0 +1,47 @@
+{
+  "fpsdisplayer.menu.title": "JustProject Settings",
+  "fpsdisplayer.menu.key_binds": "Key Bind Settings",
+  "fpsdisplayer.menu.visual_settings": "Visual Settings",
+  "fpsdisplayer.menu.language": "Language",
+  "fpsdisplayer.menu.back": "Back",
+  
+  "fpsdisplayer.binds.title": "Key Bind Settings",
+  "fpsdisplayer.binds.add": "+ Add Bind",
+  "fpsdisplayer.binds.key": "Key",
+  "fpsdisplayer.binds.command": "Command",
+  "fpsdisplayer.binds.action": "Action",
+  "fpsdisplayer.binds.delete": "Delete",
+  "fpsdisplayer.binds.count": "Binds: %s",
+  "fpsdisplayer.binds.listening": "Press any key... (ESC to cancel)",
+  "fpsdisplayer.binds.instructions": "How to use binds:",
+  "fpsdisplayer.binds.instruction1": "Click Key button and press any key",
+  "fpsdisplayer.binds.instruction2": "Type command in the field (without /)",
+  "fpsdisplayer.binds.instruction3": "Press ESC to close menu",
+  
+  "fpsdisplayer.visual.title": "Visual Settings",
+  "fpsdisplayer.visual.fps": "FPS Display: %s",
+  "fpsdisplayer.visual.coordinates": "Coordinates: %s",
+  "fpsdisplayer.visual.cps": "CPS Display: %s",
+  "fpsdisplayer.visual.armor": "Armor Display: %s",
+  "fpsdisplayer.visual.entity_info": "Entity Info: %s",
+  "fpsdisplayer.visual.armor_swap": "Armor Swap: %s",
+  "fpsdisplayer.visual.swap_sound": "Swap Sound: %s",
+  "fpsdisplayer.visual.positions": "Edit Positions (Coming Soon)",
+  "fpsdisplayer.visual.reset": "Reset All Positions",
+  "fpsdisplayer.visual.config_info": "Advanced settings in: config/fpsdisplayer.toml",
+  
+  "fpsdisplayer.language.title": "Language Selection",
+  "fpsdisplayer.language.english": "English",
+  "fpsdisplayer.language.russian": "Russian",
+  
+  "fpsdisplayer.status.on": "ON",
+  "fpsdisplayer.status.off": "OFF",
+  
+  "fpsdisplayer.armor.swap_hint": "Right-click to swap %s",
+  "fpsdisplayer.armor.swap_success": "✓ Swapped %s",
+  "fpsdisplayer.armor.helmet": "helmet",
+  "fpsdisplayer.armor.chestplate": "chestplate",
+  "fpsdisplayer.armor.leggings": "leggings",
+  "fpsdisplayer.armor.boots": "boots",
+  "fpsdisplayer.armor.elytra": "elytra"
+}

@@ -1,0 +1,45 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "MIT"
+
+[[mods]]
+modId = "fpsdisplayer"
+version = "1.0.0"
+displayName = "§6§lJust§e§lProject §f§lFPS Display"
+description = """§6╔══════════════════════════════════
+§6║    §e§lJUSTPROJECT FPS DISPLAYER    
+§6╚══════════════════════════════════
+
+§a★ §fAdvanced FPS display mod §a★
+
+§b⚡ §6FEATURES:
+§7• §fFPS, CPS, Coordinates
+§7• §fArmor durability  
+§7• §fEntity info
+§7• §fKey bind system
+
+§e🎮 §6COMMANDS:
+§7•§e .bind §f- Create key binds
+§7•§e .binds §f- List binds
+§7•§e .unbind §f- Remove binds
+
+§c❤ §6BY: §fJustProject Team"""
+authors = "JustProject Team"
+logoFile = "justproject_logo.png"
+displayURL = "https://github.com/JustProjectMods/fpsdisplayer"
+issuesURL = "https://github.com/JustProjectMods/fpsdisplayer/issues"
+updateJSONURL = "https://raw.githubusercontent.com/JustProjectMods/fpsdisplayer/main/update.json"
+
+[["dependencies.fpsdisplayer"]]
+modId = "forge"
+versionRange = "[36.2.42,)"
+ordering = "NONE"
+mandatory = true
+side = "CLIENT"
+
+[["dependencies.fpsdisplayer"]]
+modId = "minecraft"
+versionRange = "[1.16.5,)"
+ordering = "NONE"
+mandatory = true
+side = "CLIENT"
