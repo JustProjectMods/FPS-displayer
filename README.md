@@ -1,39 +1,59 @@
 # JustProject FPS Display Mod
 
-![Minecraft](https://img.shields.io/badge/Minecraft-1.16.5-green)
-![Forge](https://img.shields.io/badge/Forge-36.2.42-orange)
-![License](https://img.shields.io/badge/License-MIT-blue)
+<p align="center">
+  <img src="https://img.shields.io/badge/Minecraft-1.16.5-green" alt="Minecraft">
+  <img src="https://img.shields.io/badge/Forge-36.2.42-orange" alt="Forge">
+  <img src="https://img.shields.io/badge/License-MIT-blue" alt="License">
+  <img src="https://img.shields.io/github/v/release/JustProjectMods/FPS-displayer" alt="Release">
+</p>
 
-📥 **Download**: [Latest Release](https://github.com/JustProjectMods/fpsdisplayer/releases/latest)
+Продвинутый мод для отображения FPS и игровой статистики в Minecraft 1.16.5 с расширенными возможностями кастомизации.
 
-Advanced FPS display mod for Minecraft 1.16.5 with useful game statistics.
+## 📥 Скачать
 
-## ✨ Features
-- **FPS Counter** with color indicators
-- **Coordinates Display** (X, Y, Z)  
-- **CPS Counter** (clicks per second)
-- **Armor Display** with durability percentages
-- **Entity Info** when looking at mobs
-- **Key Bind System** with GUI
-- **Customizable** positions and toggles
+**Последняя версия**: [v1.0.0](https://github.com/JustProjectMods/FPS-displayer/releases/tag/v1.0.0)
 
-## 🎮 Commands
-- `.bind <key> <command>` - Create key bind
-- `.binds` - List active binds
-- `.unbind <key>` - Remove bind  
-- `/binds` - GUI bind settings
+## ✨ Возможности
 
-## ⚙️ Installation
-1. Download from [Releases](../../releases)
-2. Place in `mods` folder
-3. Requires **Forge 36.2.42+** for **Minecraft 1.16.5**
+### 📊 Отображение статистики
+- **Счетчик FPS** с цветовыми индикаторами производительности
+- **Координаты игрока** (X, Y, Z) в реальном времени
+- **Счетчик CPS** (кликов в секунду) для обеих кнопок мыши
+- **Информация о броне** с процентами прочности
+- **Информация о существах** при взгляде на мобов
 
-## 🔧 Configuration
-- In-game: `Options` → `JustProject Settings`
-- Manual: Edit `config/fpsdisplayer.toml`
+### 🎮 Управление
+- **Система привязки клавиш** с поддержкой команд
+- **Графический интерфейс** для управления настройками
+- **Настраиваемые позиции** элементов на экране
+- **Включение/выключение** отдельных функций
 
-## 🛠️ Building
+## 🚀 Установка
+
+1. Скачайте последнюю версию из раздела [Releases](https://github.com/JustProjectMods/FPS-displayer/releases)
+2. Поместите файл `.jar` в папку `mods` вашего клиента Minecraft
+3. Запустите игру с **Forge 36.2.42** или новее для **Minecraft 1.16.5**
+
+## ⚙️ Использование
+
+### 🔧 Команды
+- `.bind <клавиша> <команда>` - Создать привязку клавиши
+- `.binds` - Показать активные привязки
+- `.unbind <клавиша>` - Удалить привязку
+- `/binds` - Открыть графический интерфейс управления привязками
+
+### 🎛️ Настройки
+- **В игре**: `Настройки` → `JustProject Settings`
+- **Вручную**: Отредактируйте файл `config/fpsdisplayer.toml`
+
+## 🛠️ Сборка из исходного кода
+
 ```bash
-git clone https://github.com/JustProjectMods/fpsdisplayer.git
-cd fpsdisplayer
+# Клонирование репозитория
+git clone https://github.com/JustProjectMods/FPS-displayer.git
+cd FPS-displayer
+
+# Сборка мода
 ./gradlew build
+
+# Готовый файл mod будет в ./build/libs/
