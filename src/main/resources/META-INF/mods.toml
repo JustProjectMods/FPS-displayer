@@ -26,9 +26,9 @@ description = """§6╔═══════════════════
 §c❤ §6BY: §fJustProject Team"""
 authors = "JustProject Team"
 logoFile = "justproject_logo.png"
-displayURL = "https://github.com/JustProjectMods/fpsdisplayer"
-issuesURL = "https://github.com/JustProjectMods/fpsdisplayer/issues"
-updateJSONURL = "https://raw.githubusercontent.com/JustProjectMods/fpsdisplayer/main/update.json"
+displayURL = "https://github.com/JustProjectMods/FPS-displayer"
+issuesURL = "https://github.com/JustProjectMods/FPS-displayer/issues"
+updateJSONURL = "https://raw.githubusercontent.com/JustProjectMods/FPS-displayer/main/update.json"
 
 [["dependencies.fpsdisplayer"]]
 modId = "forge"
