@@ -7,7 +7,9 @@
   <img src="https://img.shields.io/github/v/release/JustProjectMods/FPS-displayer" alt="Release">
 </p>
 
-Advanced FPS display mod for Minecraft 1.16.5 with comprehensive game statistics and customization options.
+<p align="center">
+  <strong>Advanced FPS display mod for Minecraft 1.16.5 with comprehensive game statistics</strong>
+</p>
 
 ## 📥 Download
 
@@ -57,3 +59,36 @@ cd FPS-displayer
 ./gradlew build
 
 # Built mod file will be in ./build/libs/
+```
+
+## 📁 Project Structure
+
+```
+FPS-displayer/
+├── src/main/java/      # Java source code
+├── src/main/resources/ # Mod resources
+├── build.gradle        # Build configuration
+└── gradlew            # Build script
+```
+
+## 🤝 Contributing
+
+We welcome contributions to the mod! If you want to help:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 🐛 Reporting Issues
+
+If you find a bug, please create an issue in the [Issues](https://github.com/JustProjectMods/FPS-displayer/issues) section with detailed description.
+
+---
+
+**Enjoy gaming with JustProject FPS Display!** 🎮
